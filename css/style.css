@@ -35,6 +35,21 @@ article h2 {
   height:7.5rem;
   overflow: hidden;
   text-overflow: ellipsis;
+  position : relative;
+}
+
+.summary:after {
+  content  : "";
+  position : absolute;
+  z-index  : 1;
+  bottom   : 0;
+  left     : 0;
+  pointer-events   : none;
+  background-image : linear-gradient(to bottom, 
+                    rgba(255,255,255, 0), 
+                    rgba(255,255,255, 1) 90%);
+  width    : 100%;
+  height   : 4rem;
 }
 
 
@@ -316,6 +331,12 @@ ul.et-social-icons a.icon i:before {
 
 #header.hero2 h1 {
   line-height: .98em;
+}
+
+#header-masthead,
+#header-masthead .fullscreen-video-background {
+  height: 300px;
+  margin-bottom: 3rem;
 }
 
 @media screen and (min-width: 30em) {
