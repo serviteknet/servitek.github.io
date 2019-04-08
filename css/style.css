@@ -108,7 +108,7 @@ div#servi-trak button.btn {
   width: 100%;
   top: 0;
   bottom: 0;
-  background: #222;
+  background: rgb(116, 60, 60);
   z-index: 1;
 }
 .fullscreen-video-background #_youtube-iframe-wrapper {
@@ -128,7 +128,25 @@ div#servi-trak button.btn {
   width: 360vw;
 }
 
+.fullscreen-video-background {
+  background-image: url(/img/servi-tek-client.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .fullscreen-video-background #_youtube-iframe-wrapper {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) { 
+
+  .fullscreen-video-background {
+    background: #000;
+  }
+
+
   .fullscreen-video-background #_youtube-iframe-wrapper #_youtube-iframe {
     height: 500vh;
     width: 200vw;
