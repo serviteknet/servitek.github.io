@@ -26,8 +26,14 @@ body {
 
 article h2 {
   color: rgba(29,67,156,1.0);
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: 200;
+}
+
+article h3 {
+    color: rgba(29,67,156,1.0);
+    font-size: 1.1 rem;
+    font-weight: 200;
 }
 
 
@@ -376,3 +382,12 @@ ul.et-social-icons a.icon i:before {
     line-height: .8em;
   }
 }
+
+aside ul.et-social-icons {
+    padding-inline-start: 0;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
