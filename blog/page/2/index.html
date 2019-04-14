@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Blogs</title>
   
@@ -12,6 +13,7 @@
   <link href="/blog/index.xml" rel="feed" type="application/rss+xml" title="Servi-tek">
   <meta name="generator" content="Hugo 0.48" />
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" id="divi-fonts-css"
     href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,latin-ext"
     type="text/css" media="all">
@@ -21,10 +23,19 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script>
+  function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+  </script>
 
 </head>
 
 <body>
+<div class="absolute free-site-analysis" data-aos="fade-left">
+  <div class="w">
+  </div>
+  <a href="/contact-us/"><img src="/img/free-site-analysis.png"></a>
+</div>
 <header class="open-sans">
   <div id="header-masthead" class="cover bg-left bg-top-l ">
     <div id="servi-trak" class="white bg-black justify-end flex items-center">
@@ -540,7 +551,7 @@
 
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 
@@ -636,6 +647,11 @@ var vid_h_orig = 1280;
 
 
 <script src="/js/main.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124437817-1"></script>
 <script>

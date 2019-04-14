@@ -154,4 +154,8 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>/contact-form-thank-you/</loc>
+  </url>
+  
 </urlset>

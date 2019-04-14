@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Contact Us</title>
   
@@ -12,6 +13,7 @@
   
   <meta name="generator" content="Hugo 0.48" />
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" id="divi-fonts-css"
     href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,latin-ext"
     type="text/css" media="all">
@@ -21,12 +23,16 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script>
+  function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+  </script>
 
 </head>
 
 <body>
 <header class="open-sans">
-  <div id="header-masthead" class="cover bg-left bg-top-l ">
+  <div id="header" class="dt w-100 hero2">
     <div id="servi-trak" class="white bg-black justify-end flex items-center">
   <div class="description">
     Powered by SERVI-TRAK <span class="is-desktop">- Dynamic Web-based Services Management Tool</span>
@@ -37,15 +43,16 @@
     </button>
   </div>
 </div>
-    <div class=" pb2 absolute z-4 w-100 dt">
-      <nav class="dt w-100 mw8 center"> 
-        <div class="dtc w4 v-mid pa3">
-          <a href="/">
-            <img src="/img/servi-tek-logo.png" alt="Servi-tek">
-          </a>
-
-        </div>
-        
+    
+<div class="absolute z-5 w-100">
+  <div class=" center">
+    <nav class="dt w-100 mw8 center">
+      <div class="dtc w4 v-mid pa3">
+        <a href="/">
+          <img src="/img/servi-tek-logo.png" alt="Servi-tek">
+        </a>
+      </div>
+      
 
 
 
@@ -212,16 +219,78 @@
     </ul>
 </nav>
 
-        
-      </nav> 
-      <div class="tc mt0 ph3">
-        
-        
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Contact Us</h1>
-          <h2 class="fw1 f5 f3-l white-80 mt0 mb4 mw7 center"></h2>
-        
-      </div>
+    </nav>
+  </div>
+
+</div>
+
+<div class="absolute z-4 w-100 dt hero-text">
+  <div class="dt mw8 center pt6">
+    
+    <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns white w-100 w-60-ns pt3">
+      <h2 class="fw1 f5 f3-l white-80 ma0">If you are looking for</h2>
+      <h1 class="f2 f1-l fw6 white-90 mv1 mv3-ns ttu fw9">Innovative Facilities Management Solution</h1>
+      
+      <h2 class="fw1 f5 f3-l white-80 ma0 center">Then, contact us today!</h2>
     </div>
+
+    <div class="order-last-ns  v-top  pa3 pr3-m pa0-ns center">
+      <article class="pa3 pa4-ns tc br3 bg-white b--black-20 ba">
+        <p class="f4 f3-l  ma0 center">Free Site Analysis</p>
+
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+          <input type=hidden name='captcha_settings'
+            value='{"keyname":"Servi_Tek_2019","fallback":"true","orgId":"00D500000007yl0","ts":""}'>
+          <input type=hidden name="oid" value="00D500000007yl0">
+          <input type=hidden name="retURL" value="https://servi-tek.net/contact-form-thank-you/">
+
+          
+          <input type="hidden" name="debugEmail" value="digitaljoni@gmail.com">
+
+
+          <fieldset id="sign_up" class="ba b--transparent ph0 mh0 pv0">
+            <legend class="ph0 mh0 fw6 clip">Sign Up</legend>
+            <div class="mt3">
+              <input class="pa2 input-reset ba bg-transparent w-100 measure b--black-20" id="first_name" maxlength="40"
+                name="first_name" size="20" type="text" placeholder="Your First Name" />
+            </div>
+            <div class="mt3">
+              <input class="pa2 input-reset ba bg-transparent w-100 measure b--black-20" id="last_name" maxlength="80"
+                name="last_name" size="20" type="text" placeholder="Your Last Name" />
+            </div>
+            <div class="mt3">
+              <input class="pa2 input-reset ba bg-transparent w-100 measure b--black-20" id="email" maxlength="80"
+                name="email" size="20" type="text" placeholder="Your Email Address" />
+            </div>
+            <div class="mt3">
+              <input class="pa2 input-reset ba bg-transparent w-100 measure b--black-20" id="phone" maxlength="40"
+                name="phone" size="20" type="text" placeholder="Your Contact Number" />
+            </div>
+
+            <div class="mt3">
+              <textarea class="pa2 input-reset ba bg-transparent w-100 measure b--black-20" type="text"
+                name="description" id="description" placeholder="Message"
+                style="resize: none; height: 5rem;"></textarea>
+            </div>
+
+            <div class="mt3">
+              <div class="g-recaptcha" data-sitekey="6Lc0Kp0UAAAAAAQitSk17CPzMJMIG9DVmiHVjMaZ"></div>
+            </div>
+
+          </fieldset>
+          <div class="mt3"><input class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 bg-blue white"
+              type="submit" value="Contact Us"></div>
+        </form>
+        <p class="fw1 f5 f5-l  mt3 mb0 center">Or call us at: </p>
+        <p class="fw6 f4 f3-l  ma0 center">1(866) 454-6185</p>
+      </article>
+    </div>
+
+    
+  </div>
+
+</div>
     <div class="fullscreen-video-background">
   <div class="_pattern-overlay"></div>
   <div id="_buffering-background"></div>
@@ -231,43 +300,17 @@
 </div>
   </div> 
 </header>
+
 <div class=" w-100 dt bg-near-white hero-text">
-  <div class="flex mw8 center pv5 flex-row-ns flex-column">
+  <div class="flex mw8 center pv3 flex-row-ns flex-column">
 
-    <div class="order-last-ns  v-top w-100 w-40-m w-40-ns pa3 pr3-m pa0-ns center">
-      <article class="pa3 pa4-ns tc br3 bg-white-70 b--black-20 ba">
-        <p class="f4 f3-l  ma0 center">Free Site Analysis</p>
-        <form action="sign-up_submit" method="get" accept-charset="utf-8">
-          <fieldset id="sign_up" class="ba b--transparent ph0 mh0 pv0">
-            <legend class="ph0 mh0 fw6 clip">Sign Up</legend>
-            <div class="mt3">
-              <input class="pa2 input-reset ba bg-transparent w-100 measure b--black-20" type="text" name="name"  id="name" placeholder="Your Name">
-            </div>
-            <div class="mt3">
-              <input class="pa2 input-reset ba bg-transparent w-100 measure b--black-20" type="text" name="email"  id="email" placeholder="Your Email Address">
-            </div>
-            <div class="mt3">
-              <input class="pa2 input-reset ba bg-transparent w-100 measure b--black-20" type="text" name="telephone"  id="telephone" placeholder="Your Contact Number">
-            </div>
-
-            <div class="mt3">
-              <textarea class="pa2 input-reset ba bg-transparent w-100 measure b--black-20" type="text" name="message"  id="message" placeholder="Message" style="resize: none; height: 5rem;"></textarea>
-            </div>
-            
-          </fieldset>
-          <div class="mt3"><input class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 bg-blue white" type="submit" value="Contact Us"></div>
-        </form>
-        <p class="fw1 f5 f5-l  mt3 mb0 center">Or call us at: </p>
-        <p class="fw6 f4 f3-l  ma0 center">1(866) 454-6185</p>
-      </article>
-    </div>
-    
-    <div class=" v-top  pl3-ns w-100 w-60-m w-60-ns pa4">
+    <div class=" v-top  pl3-ns w-100 pa4">
       <h2 class="tc f3 fw2 primary-color lh-title mv0">Our Branches</h2>
       <p>
-        With branch offices in California (Los Angeles, Orange County, Inland Empire & San Diego), Nevada, Arizona, and Hawaii, our office and management staff are available to meet with you at any time.
+        With branch offices in California (Los Angeles, Orange County, Inland Empire & San Diego), Nevada, Arizona, and
+        Hawaii, our office and management staff are available to meet with you at any time.
       </p>
-      
+
       <div class="dt-ns dt--fixed-ns mw8 center tc">
         <div class="dtc-ns v-top pa3 w-100 w-33-ns">
           <img src="/img/branch-san-diego.jpg" alt="San Diego Branch">
@@ -288,9 +331,7 @@
             Honolulu, Hawaii 96813
           </p>
         </div>
-      </div>
 
-      <div class="dt-ns dt--fixed-ns mw8 center tc">
         <div class="dtc-ns v-top pa3 w-100 w-33-ns">
           <img src="/img/branch-anaheim.jpg" alt="Inland Empire / O.C. Branch">
           <h3 class="tc fw2 primary-color mv0">Inland Empire / O.C. Branch</h3>
@@ -315,7 +356,7 @@
 
     </div>
 
-    
+
   </div>
 
 </div>
@@ -424,7 +465,7 @@
 
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 
@@ -520,6 +561,11 @@ var vid_h_orig = 1280;
 
 
 <script src="/js/main.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124437817-1"></script>
 <script>

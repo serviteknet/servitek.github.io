@@ -368,7 +368,7 @@ ul.et-social-icons a.icon i:before {
 
   #header.hero2, 
   #header.hero2 .fullscreen-video-background {
-    height: 650px;
+    height: 800px;
   }
 
   #header.hero2 .hero-text {
@@ -391,3 +391,16 @@ aside ul.et-social-icons {
     width: 80%;
 }
 
+.free-site-analysis {
+  display: none;
+}
+@media (min-width: 768px) { 
+
+  .free-site-analysis {
+    display: block;
+    top: 10rem;
+    right: 1rem;
+    z-index: 10;
+  }
+
+}

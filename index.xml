@@ -235,11 +235,7 @@ Consistent Employee Training Promotes Our Culture Of Service Excellence Yes, Ser
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contact-us/</guid>
-      <description>Free Site Analysis
-Sign Up         Or call us at: 1(866) 454-6185
-  Our Branches  With branch offices in California (Los Angeles, Orange County, Inland Empire &amp; San Diego), Nevada, Arizona, and Hawaii, our office and management staff are available to meet with you at any time. San Diego Branch 3970 Sorrento Valley Blvd.
-Suite 400
-San Diego, CA 92121  Honolulu Branch 841 Bishop</description>
+      <description></description>
     </item>
     
     <item>
@@ -267,6 +263,15 @@ San Diego, CA 92121  Honolulu Branch 841 Bishop</description>
       
       <guid>/news-events/</guid>
       <description>Meet the Servi-Tek Tribe in person! Here are the tradeshows and events in which we are participating. Please stop by and see us!    San Diego Commercial Properties Expo  Tuesday, March 12, 2019. 3PM to 6PM Combining FOUR premiere industry organizations to bring together regional experts, resources and suppliers from BOMA, IFMA, IREM, and SDBEA! This expo represents the best of the best in the commercial real estate industry – you don’t want to miss out!</description>
+    </item>
+    
+    <item>
+      <title>Thank you</title>
+      <link>/contact-form-thank-you/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact-form-thank-you/</guid>
+      <description>Thank you for your interest in Servi-Tek, we will follow up with you within 24 hours.   </description>
     </item>
     
   </channel>
