@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2019/04/four-ways-run-green-clean-facility/</loc>
+    <lastmod>2019-04-16T12:19:07+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2019/04/benefits-of-upgrading-to-a-cloud-based-platform/</loc>
     <lastmod>2019-04-08T23:19:07+08:00</lastmod>
   </url>
@@ -118,7 +123,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2019-04-08T23:19:07+08:00</lastmod>
+    <lastmod>2019-04-16T12:19:07+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,7 +150,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-04-08T23:19:07+08:00</lastmod>
+    <lastmod>2019-04-16T12:19:07+08:00</lastmod>
     <priority>0</priority>
   </url>
   
