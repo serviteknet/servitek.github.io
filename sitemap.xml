@@ -4,19 +4,24 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2019-04-16T12:19:07+08:00</lastmod>
+    <lastmod>2019-04-30T23:19:07+08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-04-30T23:19:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/2019/04/smart-buildings-top-trends-to-watch-for-in-2019/</loc>
+    <lastmod>2019-04-30T23:19:07+08:00</lastmod>
   </url>
   
   <url>
     <loc>/blog/2019/04/four-ways-run-green-clean-facility/</loc>
     <lastmod>2019-04-16T12:19:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-04-16T12:19:07+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
