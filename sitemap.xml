@@ -153,10 +153,6 @@
   </url>
   
   <url>
-    <loc>https://servi-tek.net/privacy-policy/</loc>
-  </url>
-  
-  <url>
     <loc>https://servi-tek.net/services-engineering-facilities/</loc>
   </url>
   
@@ -166,6 +162,10 @@
   
   <url>
     <loc>https://servi-tek.net/news-events/</loc>
+  </url>
+  
+  <url>
+    <loc>https://servi-tek.net/privacy-policy/</loc>
   </url>
   
   <url>
