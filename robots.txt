@@ -1,2 +1,2 @@
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: http://servi-tek.com/sitemap.xml
 User-agent: *
