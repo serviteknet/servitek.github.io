@@ -4,25 +4,42 @@
   
   <url>
     <loc>https://servi-tek.net/blog/</loc>
-    <lastmod>2019-07-11T12:19:07+08:00</lastmod>
+    <lastmod>2019-07-23T12:19:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://servi-tek.net/</loc>
+    <lastmod>2019-07-23T12:19:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://servi-tek.net/tags/</loc>
+    <lastmod>2019-07-23T12:19:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://servi-tek.net/blog/2019/07/three-more-ways-to-make-your-office-more-efficient/</loc>
+    <lastmod>2019-07-23T12:19:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://servi-tek.net/tags/facility-management/</loc>
+    <lastmod>2019-07-23T12:19:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://servi-tek.net/tags/office-efficiency/</loc>
+    <lastmod>2019-07-23T12:19:07+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://servi-tek.net/blog/2019/07/servi-trak-cofounder-completes-ironman-703-triathlon/</loc>
     <lastmod>2019-07-11T12:19:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://servi-tek.net/</loc>
-    <lastmod>2019-07-11T12:19:07+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://servi-tek.net/tags/</loc>
-    <lastmod>2019-07-11T12:19:07+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -75,12 +92,6 @@
   <url>
     <loc>https://servi-tek.net/blog/2019/06/facility-and-janitorial-cleaning-services-to-get-your-building-summer-ready/</loc>
     <lastmod>2019-06-17T12:19:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://servi-tek.net/tags/facility-management/</loc>
-    <lastmod>2019-06-17T12:19:07+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
